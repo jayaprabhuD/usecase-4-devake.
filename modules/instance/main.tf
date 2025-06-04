@@ -1,5 +1,5 @@
 resource "aws_instance" "app" {
-  ami           = "ami-02457590d33d576c3"  # Replace with appropriate AMI
+  ami           = "ami-0af9569868786b23a"
   instance_type = "t2.medium"
   subnet_id     = var.subnet_id
   vpc_security_group_ids = var.vpc_security_group_ids
